@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app/ /app/
 
-RUN pip install flask
+RUN pip install --upgrade pip setuptools==78.1.1 flask
 
 EXPOSE 8080
 
