@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: Demo-App
+      IMAGE_NAME: demo-pythonapp
       TAG: latest
     
     steps:
